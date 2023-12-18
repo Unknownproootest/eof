@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Dark Dex Choosing", "DarkTheme")
+local Tab = Window:NewTab("Main")
+Section:NewButton("Dark Dex 1", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+   print("Clicked")
+end)
+
+Section:NewButton("Dark Dex 2", "ButtonInfo", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+   print("Clicked")
+end)
