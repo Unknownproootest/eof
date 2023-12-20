@@ -17,6 +17,10 @@ getgenv().Key = "Bash"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
 end)
 
-Section:NewButton("Remote Spy", "ButtonInfo", function()
+Section:NewButton("Simple Spy V3", "ButtonInfo", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/Forked/M%3ASimpleSpy%20V3",true))()
+end)
+
+Section:NewButton("Turtle Spy", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/BDhSQqUU", true))()
 end)
